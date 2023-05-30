@@ -1,0 +1,176 @@
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+}
+
+.topbar {
+    display: block;
+    text-align: center;
+}
+
+.greenlogo {
+    display: flex;
+    float: left;
+    width: 80px;
+    height: 15px;
+    margin: 32px 0 0px 40px;
+    background: url(naver.com);
+    font-weight: 900;
+    font-size: 30px;
+    color: green;
+
+
+}
+
+nav {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+}
+li {
+    display: list-item;
+}
+
+.topmenus {
+    display: inline-block;
+    margin: 32px 0 0 -200px;
+    float:left;
+
+
+}
+.topmenus ul{
+    list-style: none;
+}
+
+.topmenu {
+    display: block;
+    float: left;
+    padding-inline-start: 35px;
+    margin: 15px 15px;
+    font-weight: 700;
+    font-size: 16px;
+
+}
+ a:link{
+    color: #555;
+}
+ a:visited {
+    color: #555;
+}
+a:hover {
+    color: #121212;
+ }
+
+
+ section {
+    display: block;
+ }
+ .title{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #121212;
+    letter-spacing: -2px;
+ }
+ .subtitle{
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    color: #333;
+    padding-bottom: 40px;
+ }
+ 
+ img {
+    width: 100%;
+ }
+ .img {
+    margin-bottom: -20px;
+
+ }
+ .center {
+    max-width: 1120px;
+    margin: 74px auto 120px;
+ }
+.middle {
+    display: block;
+    width: 100%;
+}
+ .middle:nth-child(2) {
+    display: inline-block;
+    float: left;
+    width : 263px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    line-height: 28px;
+    padding-right: 30px;
+    padding-top: 100px;
+    height:100px;
+ }
+
+ .middle_left {
+    display: inline-block;
+    float: left;
+    width : 263px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    line-height: 28px;
+    padding-right: 30px;
+    height:100px;
+ }
+ .middle_right {
+    line-height: 26px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #666;
+ }
+
+
+ .middle_table {
+    width: 800px;
+    display: block;
+ }
+
+ tr:first-child {
+    border-top: 2px solid #333;
+ }
+
+ tr{
+    display: table-row;
+    vertical-align: inherit;
+    line-height: 50px;
+
+ }
+ th{
+    width: 160px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 15px;
+    color: #121212;
+ }
+
+ footer{
+    top : 400px;
+    display: block;
+    position: relative;
+    width: 100%;
+    background-color: #f8f9fa;
+    bottom: 0;
+    margin: 0 auto;
+    text-align: center;
+    float: left;
+ }
+
+ footer.footer-wrap {
+    position: relative;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 74px 0 70px;
+    text-align: center;
+ }
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
